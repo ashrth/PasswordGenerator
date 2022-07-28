@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Mulish:wght@300&family=Roboto+Slab:wght@300;400&display=swap');
+
+*{
+    margin:0%;
+    font-family: 'Lora', serif;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(38, 112, 164); 
+    color:white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: rgb(22, 57, 81); 
+    width: 500px; 
+    box-shadow: 0 4px 10px black;
+
+
+}
+.psd{
+    background-color: rgb(38, 112, 164); 
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 70px;
+    position: relative;
+    padding: 1rem;
+    margin:0.5rem;
+}
+
+
+
+
+
+
+.form-content{
+    display: flex;
+    justify-content: space-between;
+     padding:1rem;
+     margin:0.5rem 0;
+
+}
+ #btn {
+    background-color: rgb(38, 112, 164); 
+    color: white;
+    display: block;
+    font-weight: bold;
+    width:90%;
+    margin-top:1rem;
+    margin-bottom:0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+
